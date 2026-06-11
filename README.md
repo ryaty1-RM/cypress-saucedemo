@@ -21,10 +21,11 @@ Suite de pruebas automatizadas end-to-end para el sitio [SauceDemo](https://www.
 ---
 
 ## 📂 Estructura del proyecto
+
 cypress/
 ├── e2e/
-│   ├── login.cy.js
-│   └── checkout.cy.js
+│ ├── login.cy.js
+│ └── checkout.cy.js
 ├── fixtures/
 └── support/
 
@@ -47,7 +48,7 @@ npx cypress run
 
 ## 📸 Demo
 
-> _Agrega aquí un screenshot o GIF de los tests corriendo_
+![Demo Cypress](screenshots/gif.gif)
 
 ---
 
@@ -61,12 +62,13 @@ Este proyecto se integra con el pipeline de CI/CD en [jenkins-devsecops-pipeline
 
 Este repositorio utiliza **GitHub Flow**:
 
-| Branch | Propósito |
-|--------|-----------|
-| `main` | Código estable y listo para producción |
-| `develop` | Rama de desarrollo e integración |
+| Branch    | Propósito                              |
+| --------- | -------------------------------------- |
+| `main`    | Código estable y listo para producción |
+| `develop` | Rama de desarrollo e integración       |
 
 **Flujo de trabajo:**
+
 1. Todo el desarrollo se hace en `develop`
 2. Cuando el código está listo y probado, se hace merge a `main`
 3. `main` siempre contiene código funcional
