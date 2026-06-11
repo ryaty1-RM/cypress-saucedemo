@@ -9,6 +9,8 @@ Suite de pruebas automatizadas end-to-end para el sitio [SauceDemo](https://www.
 - Login con credenciales válidas e inválidas
 - Flujo completo de compra (agregar producto → carrito → checkout)
 - Validaciones de mensajes de error
+- Tests de API con GET, POST, PUT, DELETE
+- Llenado automático de formularios con DemoQA
 
 ---
 
@@ -24,8 +26,15 @@ Suite de pruebas automatizadas end-to-end para el sitio [SauceDemo](https://www.
 
 cypress/
 ├── e2e/
-│ ├── login.cy.js
-│ └── checkout.cy.js
+│ ├── login/
+│ │ ├── ingenieridesoft.cy.js
+│ │ └── umg2025.cy.js
+│ ├── checkout/
+│ │ └── spec.cy.js
+│ ├── forms/
+│ │ └── demoqa.cy.js
+│ └── api/
+│ └── api.cy.js
 ├── fixtures/
 └── support/
 
@@ -48,7 +57,9 @@ npx cypress run
 
 ## 📸 Demo
 
-## [▶ Ver Demo](https://raw.githubusercontent.com/ryaty1-RM/cypress-saucedemo/main/Screenshots/gif.gif)
+<img src="https://raw.githubusercontent.com/ryaty1-RM/cypress-saucedemo/main/Screenshots/gif.gif" width="800"/>
+
+---
 
 ## 🔗 Relacionado
 
