@@ -48,9 +48,7 @@ npx cypress run
 
 ## 📸 Demo
 
-![Demo Cypress](screenshots/gif.gif)
-
----
+## [▶ Ver Demo](https://raw.githubusercontent.com/ryaty1-RM/cypress-saucedemo/main/Screenshots/gif.gif)
 
 ## 🔗 Relacionado
 
