@@ -52,7 +52,12 @@ npx cypress run
 
 ## 🔗 Relacionado
 
-Este proyecto se integra con el pipeline de CI/CD en [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline)
+Este proyecto se integra con el ecosistema DevSecOps:
+
+| Repositorio                                                                           | Relación                                                            |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline) | Los tests E2E se ejecutan desde el pipeline de Jenkins              |
+| [tuleapp-qa-workflow](https://github.com/ryaty1-RM/tuleapp-qa-workflow)               | Los casos de prueba están documentados y trazados en el board de QA |
 
 ---
 
