@@ -59,6 +59,17 @@ npx cypress run
 
 <img src="https://raw.githubusercontent.com/ryaty1-RM/cypress-saucedemo/main/Screenshots/gif.gif" width="800"/>
 
+## 📊 Trazabilidad
+
+| Test                        | Requisito | Caso de Prueba | Pipeline                                                                              |
+| --------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------- |
+| login/ingenieridesoft.cy.js | REQ-001   | CT-001         | [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline) |
+| checkout/spec.cy.js         | REQ-001   | CT-001         | [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline) |
+| forms/demoqa.cy.js          | REQ-001   | CT-001         | [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline) |
+| api/api.cy.js               | REQ-001   | CT-001         | [jenkins-devsecops-pipeline](https://github.com/ryaty1-RM/jenkins-devsecops-pipeline) |
+
+---
+
 ---
 
 ## 🔗 Relacionado
